@@ -175,6 +175,7 @@ else ifneq (platform:services,$(lastword $(PRODUCT_SYSTEM_SERVER_JARS)))
 else
   SYSTEM_OPTIMIZE_JAVA ?= true
 endif
+
 $(call add_soong_config_var,ANDROID,SYSTEM_OPTIMIZE_JAVA)
 
 # Check for SupplementalApi module.

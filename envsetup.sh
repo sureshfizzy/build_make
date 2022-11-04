@@ -2010,3 +2010,5 @@ fi
 export ANDROID_BUILD_TOP=$(gettop)
 
 . $ANDROID_BUILD_TOP/vendor/nightshade/build/envsetup.sh
+
+export SKIP_ABI_CHECKS=true

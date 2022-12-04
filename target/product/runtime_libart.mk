@@ -115,16 +115,16 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # without exceptions).
 PRODUCT_SYSTEM_PROPERTIES += \
     pm.dexopt.post-boot=quicken \
-    pm.dexopt.install=speed-profile \
+    pm.dexopt.install=speed \
     pm.dexopt.install-fast=skip \
     pm.dexopt.install-bulk=speed \
     pm.dexopt.install-bulk-secondary=quicken \
-    pm.dexopt.install-bulk-downgraded=speed-profile \
+    pm.dexopt.install-bulk-downgraded=speed \
     pm.dexopt.install-bulk-secondary-downgraded=quicken \
-    pm.dexopt.bg-dexopt=speed-profile \
+    pm.dexopt.bg-dexopt=speed \
     pm.dexopt.ab-ota=speed \
-    pm.dexopt.inactive=speed-profile \
-    pm.dexopt.cmdline=speed-profile \
+    pm.dexopt.inactive=speed \
+    pm.dexopt.cmdline=speed \
     pm.dexopt.shared=speed
 
 # Enable resolution of startup const strings.

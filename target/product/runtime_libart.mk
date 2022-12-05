@@ -127,6 +127,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
     pm.dexopt.cmdline=speed \
     pm.dexopt.shared=speed
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    dalvik.vm.dex2oat-cpu-set?=0,1,2,3,4,5,6 \
+    dalvik.vm.dex2oat-threads?=6
+
 # Enable resolution of startup const strings.
 PRODUCT_SYSTEM_PROPERTIES += \
     dalvik.vm.dex2oat-resolve-startup-strings=true

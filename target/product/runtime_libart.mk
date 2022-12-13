@@ -114,6 +114,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # of compilation reason in the platform (as we have a unified, single path,
 # without exceptions).
 PRODUCT_SYSTEM_PROPERTIES += \
+    pm.dexopt.downgrade_after_inactive_days?=2 \
     pm.dexopt.post-boot=quicken \
     pm.dexopt.install=speed-profile \
     pm.dexopt.install-fast=skip \
@@ -121,7 +122,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
     pm.dexopt.install-bulk-secondary=quicken \
     pm.dexopt.install-bulk-downgraded=speed \
     pm.dexopt.install-bulk-secondary-downgraded=quicken \
-    pm.dexopt.bg-dexopt=speed-profile \
+    pm.dexopt.bg-dexopt=speed \
     pm.dexopt.ab-ota=speed-profile \
     pm.dexopt.inactive=speed \
     pm.dexopt.cmdline=speed \
